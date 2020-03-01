@@ -1,0 +1,11 @@
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\bin\Debug\netcoreapp3.1\cs0221calculator1.exe
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\bin\Debug\netcoreapp3.1\cs0221calculator1.deps.json
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\bin\Debug\netcoreapp3.1\cs0221calculator1.runtimeconfig.json
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\bin\Debug\netcoreapp3.1\cs0221calculator1.runtimeconfig.dev.json
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\bin\Debug\netcoreapp3.1\cs0221calculator1.dll
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\bin\Debug\netcoreapp3.1\cs0221calculator1.pdb
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\obj\Debug\netcoreapp3.1\cs0221calculator1.csprojAssemblyReference.cache
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\obj\Debug\netcoreapp3.1\cs0221calculator1.AssemblyInfoInputs.cache
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\obj\Debug\netcoreapp3.1\cs0221calculator1.AssemblyInfo.cs
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\obj\Debug\netcoreapp3.1\cs0221calculator1.dll
+C:\Users\Thomas\source\repos\cs0221calculator1\cs0221calculator1\obj\Debug\netcoreapp3.1\cs0221calculator1.pdb
