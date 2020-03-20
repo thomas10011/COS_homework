@@ -7,12 +7,20 @@ namespace cs0320hmk
 
     class Order
     {
-        public Order(int ID, int ItemNumber)//constructor  ItemNumber表示订单项的数量
+        public Order(int ItemNumber)//constructor  ItemNumber表示订单项的数量
         {
+            orderPrice = 0; //订单初始总金额为0
+
             orderTime = DateTime.Now; //初始化当前时间
-            orderNumber = ID; //初始化订单号
+
+            Random rand = new Random();
+            orderNumber = rand.Next(10000,19999); //初始化订单号
+
             createOrder(ItemNumber);//创建订单
         }
+
+        private double orderPrice;//订单总金额
+
         private int orderNumber;//订单编号
         private DateTime orderTime;//订单创建时间
 
@@ -27,6 +35,8 @@ namespace cs0320hmk
 
             return true;
         }
+
+
         private void createOrder(int ItemNum)//创建订单函数
         {
             string name;
@@ -51,6 +61,11 @@ namespace cs0320hmk
 
         }
 
+
+        public double getOrderPrice()
+        {
+            return orderPrice;
+        }
 
     }
 }
