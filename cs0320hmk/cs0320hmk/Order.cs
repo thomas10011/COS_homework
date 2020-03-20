@@ -11,7 +11,7 @@ namespace cs0320hmk
         {
             orderTime = DateTime.Now; //初始化当前时间
             orderNumber = ID; //初始化订单号
-            createOrder(ItemNumber);
+            createOrder(ItemNumber);//创建订单
         }
         private int orderNumber;//订单编号
         private DateTime orderTime;//订单创建时间
@@ -27,7 +27,7 @@ namespace cs0320hmk
 
             return true;
         }
-        private void createOrder(int ItemNum)
+        private void createOrder(int ItemNum)//创建订单函数
         {
             string name;
             double price;
