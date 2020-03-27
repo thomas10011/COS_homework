@@ -16,7 +16,7 @@ namespace cs0320hmk
             Random rand = new Random();
             orderNumber = rand.Next(10000,19999); //初始化订单号
 
-            createOrder(ItemNumber);//创建订单
+            createOrderItem(ItemNumber);//创建订单
         }
 
         private double orderPrice;//订单总金额
@@ -26,7 +26,7 @@ namespace cs0320hmk
 
 
 
-        List<OrderItem> items;
+       private  List<OrderItem> items = new List<OrderItem>();
 
         private bool insertItem(string name, double price, int num)
         {
@@ -37,34 +37,20 @@ namespace cs0320hmk
         }
 
 
-        private void createOrder(int ItemNum)//创建订单函数
+        private void createOrderItem(int ItemNum)//创建订单函数
         {
-            string name;
-            double price;
-            int num;
 
             for (int i = 0; i < ItemNum; i++)
             {
                 
-                Console.WriteLine("请输入商品名称，以回车结束");
-                name = Console.ReadLine();
-
-                Console.WriteLine("请输入商品名称，以回车结束");
-                price = Convert.ToDouble(Console.ReadLine());
-
-                Console.WriteLine("请输入商品名称，以回车结束");
-                num = Convert.ToInt32(Console.ReadLine());
-
+                Console.WriteLine("请输入商品名称，单价，以及数量，以回车结束");
+                 String input = Console.ReadLine();
+                string[] temp = input.Split();
+                insertItem(temp[0], Convert.ToDouble(temp[1]), Convert.ToInt32(temp[2]));
             }
 
 
 
-        }
-
-
-        public double getOrderPrice()
-        {
-            return orderPrice;
         }
 
     }
