@@ -8,9 +8,9 @@ namespace cs0320hmk
 
     class OrderItem
     {
-        private string name { get; }//商品名称
-        private double price { get; }//商品单价
-        private int number { get; }//商品数量
+        public string name { get; }//商品名称
+        public double price { get; }//商品单价
+        public int number { get; }//商品数量
         public double totalPrice
         {
             get { 

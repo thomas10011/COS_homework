@@ -23,7 +23,7 @@ namespace cs0320hmk
             string memberNum = Console.ReadLine();
             if (os.checkMemberNum(memberNum))
             {
-                Console.WriteLine($"欢迎{memberNum}!");
+                Console.WriteLine($"欢迎{os.getCurrentMemberName()}!");
                 showSystem();
             }
             else
@@ -38,26 +38,32 @@ namespace cs0320hmk
 
         public void showSystem()//展示系统界面
         {
-            Console.WriteLine("按c查询您的订单，按n创建新订单，按q退出系统！");
+            Console.WriteLine("按c查询您的订单，按n创建新订单，按e导出订单信息，\n按i导入订单信息，按q退出系统！");
             string instruction = Console.ReadLine();
             switch (instruction)
             {
                 case "c":
                     os.showOrder();
-                    showSystem();//打印订单结束后继续展示系统界面
                     break;
                 case "n":
                     os.createOrder();
-                    showSystem();
                     break;
                 case "q":
                     return;
+                    break;
+                case "e":
+                    os.Export();
+                    break;
+                case "i":
+                    os.Import();
                     break;
                 default:
                     Console.WriteLine("输入的按键无效，请重新输入。");
                     showSystem();
                     return;
             }
+            showSystem();
+            
         }
 
     }
