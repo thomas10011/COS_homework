@@ -7,9 +7,9 @@ namespace cs0320hmk
     [Serializable]
     public class Member
     {
-        public string memberNum { get; }
-        public string memberName { get; }
-        public double points { get; }//会员积分
+        public string memberNum { get; set; }
+        public string memberName { get; set; }
+        public double points { get; set; }//会员积分
         public List<Order> orders;//会员名下的订单
 
 

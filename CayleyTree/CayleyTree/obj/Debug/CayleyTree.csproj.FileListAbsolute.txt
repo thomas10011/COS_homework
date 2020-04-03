@@ -1,0 +1,9 @@
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\bin\Debug\CayleyTree.exe.config
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\bin\Debug\CayleyTree.exe
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\bin\Debug\CayleyTree.pdb
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csprojAssemblyReference.cache
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\obj\Debug\CayleyTree.MainForm.resources
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\obj\Debug\CayleyTree.Properties.Resources.resources
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csproj.GenerateResource.cache
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\obj\Debug\CayleyTree.exe
+C:\Users\thomas\gitrepos\COS_homework\CayleyTree\CayleyTree\obj\Debug\CayleyTree.pdb

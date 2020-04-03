@@ -5,15 +5,21 @@
       <Order>
         <memberNum>2018302110296</memberNum>
         <memberName>thomas</memberName>
-        <orderPrice>2</orderPrice>
+        <orderPrice>14</orderPrice>
         <currentPoints>0</currentPoints>
-        <orderPoints>0.2</orderPoints>
-        <orderNumber>14249</orderNumber>
-        <orderTime>2020-03-27T22:54:19.1112405+08:00</orderTime>
+        <orderPoints>1.4</orderPoints>
+        <orderNumber>12327</orderNumber>
+        <orderTime>2020-04-03T09:27:24.9581136+08:00</orderTime>
       </Order>
     </orders>
+    <memberNum>2018302110296</memberNum>
+    <memberName>thomas</memberName>
+    <points>0</points>
   </Member>
   <Member>
     <orders />
+    <memberNum>2018302110300</memberNum>
+    <memberName>wzy</memberName>
+    <points>0</points>
   </Member>
 </ArrayOfMember>

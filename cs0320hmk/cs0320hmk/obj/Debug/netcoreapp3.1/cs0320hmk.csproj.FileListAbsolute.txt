@@ -4,8 +4,8 @@ C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\bin\Debug\netcoreapp3.
 C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\bin\Debug\netcoreapp3.1\cs0320hmk.runtimeconfig.dev.json
 C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\bin\Debug\netcoreapp3.1\cs0320hmk.dll
 C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\bin\Debug\netcoreapp3.1\cs0320hmk.pdb
-C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\obj\Debug\netcoreapp3.1\cs0320hmk.csprojAssemblyReference.cache
 C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\obj\Debug\netcoreapp3.1\cs0320hmk.AssemblyInfoInputs.cache
 C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\obj\Debug\netcoreapp3.1\cs0320hmk.AssemblyInfo.cs
 C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\obj\Debug\netcoreapp3.1\cs0320hmk.dll
 C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\obj\Debug\netcoreapp3.1\cs0320hmk.pdb
+C:\Users\thomas\gitrepos\COS_homework\cs0320hmk\cs0320hmk\obj\Debug\netcoreapp3.1\cs0320hmk.csprojAssemblyReference.cache

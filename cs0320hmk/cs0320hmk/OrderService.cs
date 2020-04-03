@@ -53,12 +53,16 @@ namespace cs0320hmk
                 XmlSerializer xmlseializer = new XmlSerializer(typeof(List<Member>));
                 using(FileStream fs = new FileStream("members.xml", FileMode.Open))
                 {
+                    
                     members.Clear();
                     members = (List<Member>)xmlseializer.Deserialize(fs);
-                    /*foreach(Member m in (Member[])xmlseializer.Deserialize(fs))
+                    foreach(Member m in members)
                     {
-                        members.Add(m);
-                    }*/
+                        if(m.memberNum == currentMember.memberNum)
+                        {
+                            currentMember = m;
+                        }
+                    }
                 }
                 Console.WriteLine("订单信息导入成功！");
             }
