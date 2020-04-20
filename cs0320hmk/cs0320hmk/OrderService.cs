@@ -25,7 +25,7 @@ namespace cs0320hmk
         public bool checkMemberNum(string num)//检测当前输入的会员号是否合法
         {
             //采用linq查询语言。
-            currentMember = (from m in members where m.memberNum == num select m).FirstOrDefault();//返回一个Member对象
+            currentMember = (from m in members where m.MemberNum == num select m).FirstOrDefault();//返回一个Member对象
             return currentMember != null;
         }
 
@@ -58,7 +58,7 @@ namespace cs0320hmk
                     members = (List<Member>)xmlseializer.Deserialize(fs);
                     foreach(Member m in members)
                     {
-                        if(m.memberNum == currentMember.memberNum)
+                        if(m.MemberNum == currentMember.MemberNum)
                         {
                             currentMember = m;
                         }
@@ -74,7 +74,7 @@ namespace cs0320hmk
 
         public string getCurrentMemberName()
         {
-            return currentMember.memberName;
+            return currentMember.MemberName;
         }
 
         public bool showOrder()
@@ -103,7 +103,7 @@ namespace cs0320hmk
                 {
                     Console.WriteLine($"请输入{i + 1}个第订单中的商品数量, 回车键结束：");
                     int ItemNum = Convert.ToInt32(Console.ReadLine());
-                    Order newOrder = new Order(ItemNum, currentMember.memberNum, currentMember.points, currentMember.memberName);//创建新订单。
+                    Order newOrder = new Order(ItemNum, currentMember.MemberNum, currentMember.Points, currentMember.MemberName);//创建新订单。
                     currentMember.addOrder(newOrder);
                     Console.WriteLine($"第{i + 1}个订单创建成功。");
                 }

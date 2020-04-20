@@ -7,17 +7,17 @@ namespace cs0320hmk
     [Serializable]
     public class Member
     {
-        public string memberNum { get; set; }
-        public string memberName { get; set; }
-        public double points { get; set; }//会员积分
-        public List<Order> orders;//会员名下的订单
+        public string MemberNum { get; set; }
+        public string MemberName { get; set; }
+        public double Points { get; set; }//会员积分
+        public List<Order> orders ;//会员名下的订单
 
 
         public Member(string memberNum, string memberName)
         {
-            this.memberNum = memberNum;
-            this.memberName = memberName;
-            points = 0;
+            this.MemberNum = memberNum;
+            this.MemberNum = memberName;
+            Points = 0;
             orders = new List<Order>();
 
 
