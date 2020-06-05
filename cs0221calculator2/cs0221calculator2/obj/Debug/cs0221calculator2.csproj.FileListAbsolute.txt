@@ -1,9 +1,0 @@
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\bin\Debug\cs0221calculator2.exe.config
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\bin\Debug\cs0221calculator2.exe
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\bin\Debug\cs0221calculator2.pdb
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\obj\Debug\cs0221calculator2.csprojAssemblyReference.cache
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\obj\Debug\cs0221calculator2.Form1.resources
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\obj\Debug\cs0221calculator2.Properties.Resources.resources
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\obj\Debug\cs0221calculator2.csproj.GenerateResource.cache
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\obj\Debug\cs0221calculator2.exe
-C:\Users\Thomas\source\repos\cs0221calculator2\cs0221calculator2\obj\Debug\cs0221calculator2.pdb
